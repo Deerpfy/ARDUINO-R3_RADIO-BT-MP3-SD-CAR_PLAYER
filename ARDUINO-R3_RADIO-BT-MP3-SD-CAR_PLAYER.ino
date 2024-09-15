@@ -30,8 +30,8 @@ bool muted = true;                                                       // Mute
 bool mp_player, state_radio, bt_player = false;                          // MP3 player detection
 bool playing = false;                                                    // MP3 playback detection
 void(*resetArduino) (void) = 0;                                          // Arduino reset function
-const float radio_float[25] = { 107.90, 105.90, 105.00, 103.70, 102.50, 101.60, 101.10, 99.70, 99.30, 98.70, 98.10, 96.60, 96.20, 95.70, 95.30, 94.60, 93.70, 92.60, 91.90, 91.20, 90.70, 90.30, 89.50, 88.20, 87.80 };
-
+const float radio_float[25] = { 107.90, 105.90, 105.00, 103.70, 102.50, 101.60, 101.10, 99.70, 99.30, 98.70, 98.10, 96.60, 96.20, 95.70, 95.30, 94.60, 93.70, 92.60, 91.90, 91.20, 90.70, 90.30, 89.50, 88.20, 87.80 }; //FM
+//Prague stations
 char* radio_stations[25] =
 {
   "Dalnice",
